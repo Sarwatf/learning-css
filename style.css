@@ -1,8 +1,27 @@
-/* cascade selector */
- /* h1{
-    color: red;
- } */
-/* inheritance selector */
-/* p{ 
+/* Last Rule */
+   p { 
+
+ color: brown;
+}
+
+p{
+    color: green;
+}
+p{
+    color: blue;
+} 
+
+/* SPECIFICITY */
+   *{  
     color: brown;
-} */
+ } 
+
+  p { 
+     color: green !important;  
+ }
+ p { 
+    color: blue;
+   }  
+
+
+
